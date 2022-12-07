@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link>
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- Ordered list (numbered)
+    adding the reversed attribute makes our list count DOWN
+    the start attribute tells us where to start counting our ordered list. -->
+
+    <!-- type describes what type of ordered list we want to use:
+    • a for lowercase letters
+    • A for uppercase letters
+    • i for lowercase Roman numerals
+    • I for uppercase Roman numerals
+    • 1 for numbers (default)
+    -->
+    <ol start="5" reversed type="A">
+        <li>Cats</li>
+        <li>Dogs</li>
+        <li>Fish</li>
+    </ol>
+
+    <!-- Unordered lists are for lists that don't need to be
+    in any particular order.
+
+    We have a type attribute to define which style of "bullet" we
+    want to use 
+    ● circle
+    ●  disc
+    ● square
+
+    -->
+    <ul type="circle">
+        <li>1. Cats</li>
+        <li>2. Dogs</li>
+        <li>3. Fish</li>
+    </ul>
+
+    <!-- Description list -->
+    <dl>
+        <!-- Item in the list uses a DT tag -->
+        <dt>Cat</dt>
+        <!-- Description of the item in the DL list uses DD tags: -->
+        <dd>Small 4 legged feline</dd>
+
+        <dt>Dog</dt>
+        <dd>Large 4 legged canine</dd>
+    </dl>
+
+</body>
+</html>
